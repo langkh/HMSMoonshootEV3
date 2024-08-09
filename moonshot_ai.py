@@ -1,8 +1,7 @@
 #NOTE: Before running this file:
 
 #1: run ./rpyc_server.sh in the SSH terminal of your EV3 brick, and main.py on your physical brick (ensure PS4 controller is connected to your brick)
-#2: run the line: "inference server start" (no quotes) in your terminal / command prompt for the AI model to inference
-
+#2: run the line: "inference server start" (no quotes) in your terminal / command prompt for the AI model to inference or start your docker container
 #This code imports libraries needed to interact with the EV3 brick and perform object detection
 import rpyc #used to communicate with the Ev3 Mindstorms brick
 import cv2 #used for video capture
