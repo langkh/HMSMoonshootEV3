@@ -1,16 +1,15 @@
-# Install Anaconda (.pkg for Mac or .exe for Windows) 
+# Install Anaconda 
+     (.pkg for Mac or .exe for Windows) 
 # Install Docker (Mac or Windows) and ensure it is running
 # Open Terminal (Mac) or Command Prompt (Windows)
-
-
-# Make sure you have conda base environment activated
-'''
-conda activate base 
-'''
-OR you could open the Anaconda Powershell Prompt/any Commandline on Anaconda Navigator
+     Make sure you have conda base environment activated
+     ```
+     conda activate base 
+     ```
+     OR you could open the Anaconda Powershell Prompt/any Commandline on Anaconda Navigator
 
 # Install AI Libraries by pasting this code in Terminal (Mac) / Command Prompt (Windows):
-'''
+```
 pip install inference-cli
 pip install opencv-python
 pip install roboflow
@@ -19,7 +18,7 @@ pip install numpy
 pip install datetime
 pip install ftd2xx
 pip install rpyc==5.0.0
-'''
+```
 
 
 If you can't intall opencv or inference-cli it is likely a python dependency issue and you might want to use an earlier python version (3.11)
@@ -38,16 +37,16 @@ If you can't intall opencv or inference-cli it is likely a python dependency iss
 
 
 
-Make sure Docker is on by typing "inference server start" on command line
+Make sure Docker is on by typing `inference server start` on command line
 
 On VScode, make sure you have the lego mindstorms ev3 extension installed
 Add a device by typing in any name, and then typing the IP of the ev3 brick
 
 
 # open SSH terminal of ev3 brick and type in 
-'''
+```
 ./rpyc_server.sh
-'''
+```
 
-You should get an INFO/SLAVE msg.
+You should get an `INFO/SLAVE` msg.
 Then you can run the code!
