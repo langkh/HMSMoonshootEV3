@@ -3,9 +3,9 @@
 # Install Docker (Mac or Windows) and ensure it is running
 # Open Terminal (Mac) or Command Prompt (Windows)
      Make sure you have conda base environment activated
-     ```
-     conda activate base 
-     ```
+```
+conda activate base 
+```
      OR you could open the Anaconda Powershell Prompt/any Commandline on Anaconda Navigator
 
 # Install AI Libraries by pasting this code in Terminal (Mac) / Command Prompt (Windows):
